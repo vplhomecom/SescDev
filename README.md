@@ -1,6 +1,14 @@
 # SescDev - Maven Project
 Sesc Bahia - Programador // Prova Prática
 
+#Configurações de banco de dados
+SescDev/src/main/resources/hibernate.cfg.xml
+
+#Configurações de email
+SescDev/src/main/java/com/vplhome/sescdev/functions/Email.java
+ private static final String KEY = "Base64"; //senha do email encriptada em base64
+ private static final String FROM = "sescdev@sescdev.com"; //endereço de e-mail GMAIL
+
 #Cross Site Request Forgery (_csrf)
 #Token de autenticação recebido no login
 
